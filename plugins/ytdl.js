@@ -65,8 +65,8 @@ cmd({
 // play
 
 cmd({ 
-     pattern: "play4", 
-     alias: ["play4"], 
+     pattern: "play", 
+     alias: ["play"], 
      react: "🎶", 
      desc: "Download Youtube song",
      category: "main", 
