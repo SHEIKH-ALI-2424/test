@@ -1,7 +1,7 @@
 {
   "name": "SHEIKH-ALI-MD",
   "description": "A MULTIPLE JAVASCRIPT WHATSAPP BOT CREATED BY 𝐋𝚫𝐃𝐋𝚫 𝐒𝚯𝚵𝚰𝐊𝚯•••²⁴⁰⁶ ❤️",
-  "logo": "https://i.imghippo.com/files/JgI8278ypg.jpg",
+  "logo": "https://i.imghippo.com/files/HsnA3316SJ.png",
   "keywords": ["SHEIKH-ALI-MD"],
   "success_url": "/",
 
@@ -85,7 +85,7 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "👑𝐋𝚫𝐃𝐋𝚫 𝐒𝚯𝚵𝚰𝐊𝚯👑X"
+      "value": "👑𝐋𝚫𝐃𝐋𝚫 𝐒𝚯𝚵𝚰𝐊𝚯👑"
 }, 
 
     "OWNER_NUMBER": {
