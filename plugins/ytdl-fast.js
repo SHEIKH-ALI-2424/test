@@ -6,7 +6,7 @@ const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 // MP4 video download with options
 cmd({ 
     pattern: "mp4", 
-    alias: ["video"], 
+    alias: ["video3"], 
     react: "🎥", 
     desc: "Download YouTube video", 
     category: "main", 
@@ -137,11 +137,11 @@ cmd({
 🔗 *Link:* ${yts.url}
 
 *Choose download format:*
-1. 📄 MP3 as Document
-2. 🎧 MP3 as Audio (Play)
-3. 🎙️ MP3 as Voice Note (PTT)
+1. 📄 Document
+2. 🎧 Audio
+3. 🎙️ Voice Note
 
-_Reply with 1, 2 or 3 to this message to download the format you prefer._`;
+_Reply with the number 🔢._`;
         
         let contextInfo = {
             mentionedJid: [m.sender],
