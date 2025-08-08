@@ -5,8 +5,8 @@ const { ytsearch, ytmp3, ytmp4 } = require('@dark-yasiya/yt-dl.js');
 // video
 
 cmd({ 
-    pattern: "video4", 
-    alias: ["video4", "ytv"], 
+    pattern: "video", 
+    alias: ["video", "ytv"], 
     react: "🎥", 
     desc: "Download Youtube song", 
     category: "download", 
@@ -20,7 +20,7 @@ cmd({
         if (yt.results.length < 1) return reply("No results found!");
         
         let yts = yt.results[0];  
-        let apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(yts.url)}`;
+        let apiUrl = `https://api.gifted.my.id/api/download/dlmp4?apikey=gifted&url=${encodeURIComponent(yts.url)}`;
         
         let response = await fetch(apiUrl);
         let data = await response.json();
