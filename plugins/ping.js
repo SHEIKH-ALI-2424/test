@@ -23,7 +23,7 @@ const Supunwa = {
 
 // PING COMMAND
 cmd({
-  pattern: "ping3",
+  pattern: "ping",
   alias: ["speed", "p"],
   use: '.ping',
   desc: "Check bot's response time.",
