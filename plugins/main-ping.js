@@ -57,7 +57,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
 // ping2 
 
 cmd({
-    pattern: "ping",
+    pattern: "ping3",
     desc: "Check bot's response time.",
     category: "main",
     react: "🍂",
